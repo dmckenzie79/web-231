@@ -57,12 +57,12 @@ state, "" + zipCode;
   
   //*Detailed Explanation*
   
-  The author created a string for each variable.
+  /*The author created a string for each variable.
   The first correction I made was to remove the quotes from the age and zipcode, these values are numbers, not text.
   Next I removed \n from the age, street and city variables because I didnt think they were needed and to clean up the code.
   I believe the author inserted \n to create a new line but I decided to tackle that in my output.
   The author detailed to write the code so I changed the output to document.write instead of console.log, which would instead log the output in the console.
-  Lastly, I entered breaks in between each variable so the output would write each variable on a seperate line per the author's expected output.
+  Lastly, I entered breaks in between each variable so the output would write each variable on a seperate line per the author's expected output.*/
   
   
       
