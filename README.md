@@ -1,2 +1,5 @@
 # web-231
-Assignments for Web 231 course 
+Introduction to JavaScript
+# contributors
+Professor Krasso - Bellevue University
+Diandra McKenzie - Bellevue University
