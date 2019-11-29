@@ -24,11 +24,11 @@ Zip code
 // Declared variables and assignments
         
         var firstName = "Diandra";
-        var lastName = "McKenzie"
-        var age = 40
-        var street = "12345 Pleasantville Blvd."
-        var city = "My Town" 
-        var zipcode = 11500
+        var lastName = "McKenzie";
+        var age = 40;
+        var street = "12345 Pleasantville Blvd.";
+        var city = "My Town"; 
+        var zipcode = 11500;
 
 // Output
         
