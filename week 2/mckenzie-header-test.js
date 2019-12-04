@@ -15,7 +15,7 @@ Diandra McKenzie Week 2
 
 //Start Program
 
-const header = require('./mckenzie-header.js'); // Add import statement
+const header = require('./mckenzie-header.js'); // import statement
 
 //Output
 
