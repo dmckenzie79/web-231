@@ -14,7 +14,7 @@
   Exercise 2.3
   Today's Date
 
-  Hello FirstName LastName!
+  Hello Diandra McKenzie!
 */ 
 
 //Start Program
