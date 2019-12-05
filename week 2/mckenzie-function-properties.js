@@ -34,7 +34,9 @@ function myName()   {
 }
     
 //Output
-console.log(header.display("Diandra", "McKenzie", "Exercise 2.3"));
+console.log(header.display("Diandra", "McKenzie", "Exercise 2.3"))
+// new line
+console.log('\n')
 //Output
 console.log('Hello', myName()+"!")
 
