@@ -10,7 +10,9 @@
 
 /*
 Expected Output
-Diandra McKenzie Week 2
+Diandra McKenzie 
+Week 2
+Date: <Today's date>
 */
 
 //Start Program
