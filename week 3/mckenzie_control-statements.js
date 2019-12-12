@@ -16,6 +16,8 @@
 
   Your child can register for Pre-k!
   Your child must be born in 2016 to register for Pre-k!
+  Your child can register for Kindergarten!
+  Please call the school.
 */ 
 
 
@@ -26,7 +28,7 @@ const header = require('./mckenzie-header.js'); // Import statement, Header
 console.log(header.display("Diandra", "McKenzie", "Discussion 3.1"));
 
 
-//Conditional Statement
+//variable
 var x=2016
 
 
