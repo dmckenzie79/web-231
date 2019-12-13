@@ -27,7 +27,7 @@
 
 const header = require('./mckenzie-header.js'); // Import statement, Header
 //Output for Header
-console.log(header.display("Diandra", "McKenzie", "Discussion 3.1"));
+console.log(header.display("Diandra", "McKenzie", "Exercise 3.2"));
 
 // six (6) test variables
 var testVar1 = "Truck";
