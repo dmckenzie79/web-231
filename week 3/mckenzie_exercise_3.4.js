@@ -1,9 +1,9 @@
 /*
 ============================================
-; Title:  control-statements.js
+; Title:  test_variable_loop.js
 ; Author: Diandra McKenzie 
 ; Date:   13 December 2019
-; Description: Control statement with two errors
+; Description: Loop to generate test variables
 ;===========================================
 */
 
