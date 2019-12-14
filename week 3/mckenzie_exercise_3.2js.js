@@ -1,9 +1,9 @@
 /*
 ============================================
-; Title:  control-statements.js
+; Title:  control-statements-if-else.js
 ; Author: Diandra McKenzie 
-; Date:   12 December 2019
-; Description: Control statement with two errors
+; Date:   13 December 2019
+; Description: Displays a string message passed by test variables
 ;===========================================
 */
 
@@ -11,7 +11,7 @@
   Expected output:
 
   Diandra McKenzie
-  Exercise 3.1
+  Exercise 3.2
   Today's Date
 
 // output from the match() function

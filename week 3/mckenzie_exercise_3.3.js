@@ -1,15 +1,15 @@
 /*
 ============================================
-; Title:  control-statements.js
+; Title:  control-statements-switch.js
 ; Author: Diandra McKenzie 
-; Date:   12 December 2019
-; Description: Control statement with two errors
+; Date:   13 December 2019
+; Description: Displays a string message from eventKeyCode
 ;===========================================
 */
 
 /*
   Expected output:
-  FirstName LastName
+  Diandra McKenzie
   Exercise 3.3
   Today's Date
   // Expected output
