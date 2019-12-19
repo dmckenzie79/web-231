@@ -61,7 +61,7 @@ var states = ["Alabama", "Nebraska", "Iowa", "California", "Nevada"]
 }
 
 // output
-console.log("-- ORIGINAL ARRAY --");
+console.log("-- ORIGINAL ARRAY --"); // iterate over the array and output the results
 for (var x = 0; x < states.length; x++) {
   console.log(states[x]);
 }
@@ -70,7 +70,7 @@ for (var x = 0; x < states.length; x++) {
 console.log("");
 
 // output
-console.log(" -- SORTED ARRAY --");
+console.log(" -- SORTED ARRAY --"); // sorted array using JavaScript's built-in sort() and forEach() functions
 states.sort().forEach(state => console.log(state));
 
 
