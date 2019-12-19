@@ -54,8 +54,11 @@ var states = ["Alabama", "Nebraska", "Iowa", "California", "Nevada"]
 
 //function
  function getState(state, value) {
-    return state === value
-  }
+  if (state === value)
+	return true
+ else
+	return false
+}
 
 // output
 console.log("-- ORIGINAL ARRAY --");
@@ -84,3 +87,5 @@ console.log(
     }
   )[0] // return the first element in the return array
 );
+
+//End Program
