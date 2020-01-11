@@ -2,7 +2,7 @@
 ============================================
 ; Title: object-collections.js
 ; Author: Diandra McKenzie 
-; Date: 10 January 2020
+; Date: 11 January 2020
 ; Description: Demonstrates how to create an object collection and output the contents
 ;===========================================
 */
@@ -62,5 +62,6 @@ const famousComposers = [
   
   famousComposers.forEach( (composer) => {
     console.log('Last Name: ' +  composer.lastName + ', '+ 'Genre: ' + composer.genre + ', '+ 'Rating: ' + composer.rating)
-
   })
+
+  //End Program
