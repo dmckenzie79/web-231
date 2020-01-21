@@ -25,31 +25,31 @@
 const header = require('./mckenzie-header.js'); 
  
 //Output
- console.log(header.display("Diandra", "McKenzie", "Exercise 7.2"))
+console.log(header.display("Diandra", "McKenzie", "Exercise 7.2"))
 
-/**
- * Params: id, firstName, lastName, title
- * Response: void
- * Description: sets the id, firstName, lastName and title of an object
- */
+/*
+* Params: id, firstName, lastName, title
+* Response: void
+* Description: sets the id, firstName, lastName and title of an object
+*/
 
 function Employee(id, firstName, lastName, title) {
-    this.id = id;
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.title = title;
-  }
-  
-// create 5 new objects
+  this.id = id;
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.title = title;
+}
+
+//Create 5 new objects
   const employee = [
-    new Employee(102, 'Thomas', 'Edison', 'Software Engineer'),
-    new Employee(541, 'Benjamin', 'Franklin', 'Programmer'),
-    new Employee(613, 'Nikola', 'Tesla', 'Project Manager'),
-    new Employee(472, 'Charles', 'Babbage', 'Product Manager'),
-    new Employee(235, 'Alexander', 'Bell', 'Business Analyst')
+    new Employee('102', 'Thomas', 'Edison', 'Software Engineer'),
+    new Employee('541', 'Benjamin', 'Franklin', 'Programmer'),
+    new Employee('613', 'Nikola', 'Tesla', 'Project Manager'),
+    new Employee('472', 'Charles', 'Babbage', 'Product Manager'),
+    new Employee('235', 'Alexander', 'Bell', 'Business Analyst')
   ];
   
-  // output
+//Output
   
   let index = 1
   for (let x = 0; x < employee.length; x++) {
