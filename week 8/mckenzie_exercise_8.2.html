@@ -1,0 +1,75 @@
+<!--
+============================================
+; Title:  dynamic.html
+; Author: Diandra McKenzie
+; Date:   27 January 2020
+; Description: Demonstrates the generation of dynamic HTML
+;===========================================
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 8.2</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet"> 
+
+  <style type="text/css">
+    body{
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300, 400, 500;
+    }
+    .topbar {
+      background-color: plum;
+      overflow: hidden;
+      height: 20px;
+      margin-bottom: 20px;
+    }
+
+    ul li {
+      list-style: none;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+
+  </div> 
+
+<div id="fruits"></div>
+
+<script>
+    
+var fruits = [
+  
+  {id:"Orange",
+  type: "Citrus"},
+  
+  {id:"Strawberry",
+  type: "Berry"},
+ 
+  {id:"Banana",
+  type: "Tropical"},
+  
+  {id:"Watermelon",
+  type: "Melon"},
+  
+  {id:"Peach",
+  type: "Stonefruit"}
+]
+
+var out = "<h1>Fruits</h1><ul>";
+    for (var x = 0; x < fruits.length; x++) {
+        out += "<li>" + fruits[x].id + "</li>";
+    }
+    out += "</ul>";
+
+    document.getElementById('fruits').innerHTML = out;
+
+</script>
+
+</body>
+</html>
