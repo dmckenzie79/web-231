@@ -15,17 +15,20 @@
   <title>Exercise 8.3</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet"> 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!-- you will need to the href to point to your root directories css file -->
-  <link rel="stylesheet" href="mckenzie_exercise_8.3.css">
+  
+  <!--link to my css file-->
+  <link rel="stylesheet" href="C:\Users\Diandra\bu-webdev\web-231\site.css">
 
 </head>
-<div class="topbar">
 
-</div> 
+<!--navigation bar-->
+<div class="topbar"></div> 
+
 <body>
-    
+<!--html title-->    
     <h1>The Meaning of Life</h1>
     <div class= para1>
+<!--html paragraph-->     
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
        Sed commodo cursus placerat. 
        Suspendisse suscipit dui elit, non venenatis arcu porttitor sed. 
@@ -43,15 +46,17 @@
        Curabitur congue gravida ex at sollicitudin. 
        Quisque porttitor tincidunt arcu non malesuada.</p>
 
+<!--html button--> 
        <button>Toggle</button>
     </div>
     <br>
     <br>
-  
+
+<!--html table of at least 5 fruits--> 
     <table>
         <thead>
         <tr>
-        <th>Id</th>
+        <th>ID</th>
         <th>Type</th>
         </tr>
         </thead>
@@ -81,13 +86,13 @@
     
     <script>
         
-
+        // jQuery onClick event
         $(function () {
             $("button").click(function () {
                 $("p").toggle();
             });
     
-            
+        // jQuery onClick event    
             $(".fruitId").click(function (event) {
                 event.preventDefault();
                 var fruitId = $(this).text();

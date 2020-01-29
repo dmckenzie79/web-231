@@ -7,21 +7,51 @@
 ;===========================================
 */
 
+/*styling for navigation bar*/
+.topbar {
+  background-color: plum;
+  overflow: hidden;
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+/*styling for body of html*/
+body{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300, 400, 500;
+}
+
+ul li {
+  list-style: none;
+  margin: 0 auto;
+}
+
+.para1 {
+  margin-left: 20px;
+
+}
 table {
-    border-collapse: collapse;
-  }
-  
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 5px;
-  }
-  
-  th {
-    background-color: steelblue;
-    color: white;
-  }
-  
-  tr:nth-child(even) {
-    background-color: lightsteelblue;
-  }
+  border-collapse: collapse;
+  margin-left: 20px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+}
+
+th {
+  background-color: purple;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: pink;
+}
+
+#employee tbody tr:hover {
+  cursor: pointer;
+  background-color: #ffff99;
+}
