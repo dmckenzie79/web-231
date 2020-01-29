@@ -1,0 +1,102 @@
+<!--
+============================================
+; Title:  jquery-click.html
+; Author: Diandra McKenzie
+; Date:   28 January 2020
+; Description: Demonstrates the use of jQuery
+;===========================================
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Exercise 8.3</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- you will need to the href to point to your root directories css file -->
+  <link rel="stylesheet" href="mckenzie_exercise_8.3.css">
+
+</head>
+<div class="topbar">
+
+</div> 
+<body>
+    
+    <h1>The Meaning of Life</h1>
+    <div class= para1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+       Sed commodo cursus placerat. 
+       Suspendisse suscipit dui elit, non venenatis arcu porttitor sed. 
+       Sed at odio sed magna congue gravida. 
+       Nullam pharetra metus nibh, et volutpat nibh malesuada vel. 
+       Nulla lacus augue, rhoncus eu fermentum non, ornare in lectus. 
+       Suspendisse massa sem, vulputate vel leo eu, dapibus fermentum tellus. 
+       Aenean posuere, dolor facilisis hendrerit pellentesque, justo turpis 
+       interdum tellus, vel venenatis velit lectus eu diam. 
+       Suspendisse ante ipsum, molestie eget luctus nec, viverra id nunc. 
+       Ut at ultricies tellus. Donec mollis scelerisque feugiat. 
+       Morbi et ipsum eu purus venenatis lacinia. 
+       Sed egestas est eget tellus pulvinar euismod.
+       Maecenas a lacus ex. Quisque sed tempus neque, non vestibulum tellus. 
+       Curabitur congue gravida ex at sollicitudin. 
+       Quisque porttitor tincidunt arcu non malesuada.</p>
+
+       <button>Toggle</button>
+    </div>
+    <br>
+    <br>
+  
+    <table>
+        <thead>
+        <tr>
+        <th>Id</th>
+        <th>Type</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td><a href="#" class="fruitId">1</a></td>
+        <td>Strawberries</td>
+        </tr>
+        <tr>
+        <td><a href="#" class="fruitId">2</a></td>
+        <td>Mangoes</td>
+        <tr>
+        <td><a href="#" class="fruitId">3</a></td>
+        <td>Pineapples</td>
+        </tr>
+        <tr>
+        <td><a href="#" class="fruitId">4</a></td>
+        <td>Kiwi</td>
+        </tr>
+        <tr>
+        <td><a href="#" class="fruitId">5</a></td>
+        <td>Cherries</td>
+        </tr>
+        </tbody>
+        </table>
+    
+    
+    <script>
+        
+
+        $(function () {
+            $("button").click(function () {
+                $("p").toggle();
+            });
+    
+            
+            $(".fruitId").click(function (event) {
+                event.preventDefault();
+                var fruitId = $(this).text();
+                var fruitType = $(this).closest("td").next().text();
+                alert("fruit id: " + fruitId + ", fruit type: " + fruitType);
+            });
+        });
+    </script>
+    
+
+</body>
+</html>
