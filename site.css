@@ -17,9 +17,9 @@
 
 /*styling for body of html*/
 body{
-  text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 300, 400, 500;
+  margin-left: 20px;
 }
 
 ul li {
@@ -27,13 +27,18 @@ ul li {
   margin: 0 auto;
 }
 
+h3:hover{
+color: purple;
+}
+
 .para1 {
-  margin-left: 20px;
+  
 
 }
 table {
+  text-align: center;
   border-collapse: collapse;
-  margin-left: 20px;
+  
 }
 
 td, th {
