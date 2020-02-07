@@ -77,7 +77,8 @@ var output = `<table>
   // Don't remove this, just add your code to the body of the event (curly braces)
   $(function () {
     $("table tr").click(function () {
-        find('td:first').html().alert(getEmployee(id));
+        var employeeInfo = $(this).find('td:first').html();
+        getEmployee(employeeInfo);
       })
   });
 
